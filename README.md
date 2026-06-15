@@ -76,9 +76,7 @@ holds on some unknown set). G2 adds a bias-index assumption along the gated axis
 
 ## Status
 
-This is a research repository. It currently provides the method and its derivations (`rct.md`)
-together with the schematic; a reference implementation is forthcoming. See `rct.md` for the precise
-estimator and guarantee definitions.
+This is a research repository. It currently provides the method and its derivations (`rct.md`).
 
 ## Reference
 
