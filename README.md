@@ -53,7 +53,7 @@ outcome scale, fixed before looking at the data.
 - **G1 — Certificate.** With probability ≥ 1−α, every gated grid point has `|δ̄(v)| ≤ ε`,
   simultaneously and across all axes sharing the bootstrap supremum.
 - **G2 — Bias budget.** A computable worst-case ceiling `B̂_max` on the leaked bias, plus a
-  bias-aware confidence interval that widens to absorb it (Armstrong–Kolesár).
+  bias-aware confidence interval that widens to absorb it.
 - **G3 — Audit.** An assumption-free, Neyman-orthogonal estimate of the bias *actually injected*,
   checked against the budget.
 
