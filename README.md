@@ -75,5 +75,4 @@ This is a research repository. It currently provides the method and its derivati
 
 ## Reference
 
-Lee, Okui & Whang (2017), *Doubly robust uniform confidence band for the conditional average
-treatment effect function* — the band construction this method re-points at the source-bias function.
+Lee, S., Okui, R., & Whang, Y. J. (2017). Doubly robust uniform confidence band for the conditional average treatment effect function. Journal of Applied Econometrics, 32(7), 1207-1225.
