@@ -14,7 +14,7 @@ transport-weighted AIPW estimator.
 
 We observe i.i.d. `O = (X, S, A, Y)`: covariates `X`, source indicator `S` (1 = trial, 0 = external
 control), treatment `A` (randomized in the trial, fixed to 0 externally), and outcome `Y`. External
-controls can sharpen the trial's control arm — but only where they are exchangeable with it. Pooling
+controls can sharpen the trial's control arm but only where they are exchangeable with it. Pooling
 indiscriminately injects bias; discarding everything forfeits power. This method borrows
 selectively, with guarantees.
 
@@ -59,7 +59,7 @@ outcome scale, fixed before looking at the data.
 
 A single-number **power readout** (the median band half-height) reports how demanding the data are.
 If the defensible `ε` falls below it, the gate declines to borrow and the estimator collapses to the
-trial-only AIPW — no coverage is bought that wasn't earned.
+trial-only AIPW, no coverage is bought that wasn't earned.
 
 
 ## Repository contents
