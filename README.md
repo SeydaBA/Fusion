@@ -16,7 +16,7 @@ We observe i.i.d. `O = (X, S, A, Y)`: covariates `X`, source indicator `S` (1 = 
 control), treatment `A` (randomized in the trial, fixed to 0 externally), and outcome `Y`. External
 controls can sharpen the trial's control arm — but only where they are exchangeable with it. Pooling
 indiscriminately injects bias; discarding everything forfeits power. This method borrows
-*selectively*, with guarantees.
+selectively, with guarantees.
 
 ## Core idea
 
