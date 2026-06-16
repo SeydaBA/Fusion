@@ -2,10 +2,10 @@
 
 **Band-gated borrowing** fuses a randomized controlled trial (RCT) with an external-control (EC)
 data source by certifying and borrowing only the external units that are exchangeable with the
-trial — and then quantifying exactly what the borrowing did.
+trial and then quantifying exactly what the borrowing did.
 
 The method re-points the doubly-robust uniform confidence band of Lee, Okui & Whang (2017) at a
-**source-bias function**, inverts it into an equivalence region where the bias is certifiably
+source-bias function, inverts it into an equivalence region where the bias is certifiably
 negligible, gates per-unit borrowing to that region, and feeds the admitted controls into a
 transport-weighted AIPW estimator.
 
