@@ -61,11 +61,6 @@ A single-number **power readout** (the median band half-height) reports how dema
 If the defensible `ε` falls below it, the gate declines to borrow and the estimator collapses to the
 trial-only AIPW — no coverage is bought that wasn't earned.
 
-## Assumptions
-
-Trial randomization (known `π_A`); external-control consistency (`Y = Y(0)` for `S=0`); overlap on
-the borrowing region; harmonized covariates across sources; and partial exchangeability (agreement
-holds on some unknown set). G2 adds a bias-index assumption along the gated axis; **G3 drops it**.
 
 ## Repository contents
 
