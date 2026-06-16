@@ -72,7 +72,7 @@ folds0 <- sample(rep(1:K, length.out = nrow(dat0)))
 ## 2. Cross-fitted regression helper
 
 ``` r
-cf_predict <- function(y, X, train_filter, folds,
+cf_predict <- function(y, X, train_filter, folds, #we can use any other method here, this is just a place holder
                        num.trees = 300, min.node.size = 10, weights = NULL) {
   n <- length(y)
   out <- rep(NA_real_, n)
